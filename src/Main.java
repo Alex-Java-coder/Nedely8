@@ -3,5 +3,6 @@ public class Main {
         SubClass obj = new SubClass();
         obj.myMethod();
         System.out.println("djfhksjd");
+        System.out.println("djfhksjd");
     }
 }
