@@ -2,6 +2,6 @@ public class Main {
     public static void main(String[] args) {
         SubClass obj = new SubClass();
         obj.myMethod();
-
+        System.out.println("djfhksjd");
     }
 }
