@@ -17,6 +17,7 @@ public abstract class Monster {
 
     public void attack() {
         System.out.println("Monster " + name + " was created");
-        System.out.println("Monster " + name + " attacked with damage " + damage);
+        //убрано мешает заданию 6.4.5.
+        //System.out.println("Monster " + name + " attacked with damage " + damage);
     }
 }

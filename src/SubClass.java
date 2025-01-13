@@ -26,4 +26,21 @@ public class SubClass extends SuperClass {
         obj.myMethod();
     }
     */
+
+    //новое задание 6.4.1.
+    SubClass(int a, int b) {
+        super(a);
+        this.b = b;
+    }
+
+    @Override
+    public int add(int v) {
+        return super.add(v) + a;
+    }
+
+//отключено и перенесено в Main
+//    public static void main(String args[]) {
+//        SubClass s = new SubClass(10, 12);
+//        System.out.println(s.a);
+//    }
 }
