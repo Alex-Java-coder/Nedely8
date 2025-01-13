@@ -131,5 +131,8 @@ public class Main {
         barracks.visit();
 
         System.out.println(" ");
+
+        Fight fight = new Fight();
+        fight.main(args);
     }
 }
