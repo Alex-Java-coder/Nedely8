@@ -3,7 +3,7 @@ public class SubClass extends SuperClass {
 
     // Метод display() подкласса
     public void display() {
-        System.out.println("Это метод display() подкласса");
+        System.out.println("Это метод display(1) подкласса");
     }
 
     public void myMethod() {

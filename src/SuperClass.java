@@ -3,6 +3,6 @@ public class SuperClass {
 
     // Метод display() суперкласса
     public void display() {
-        System.out.println("Это метод display() суперкласса");
+        System.out.println("Это метод display(2) суперкласса");
     }
 }
