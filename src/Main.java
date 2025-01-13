@@ -105,5 +105,31 @@ public class Main {
         battle.start();
 
         System.out.println(" ");
+
+        //дополнительное задание
+        Rifleman rifleman = new Rifleman("Пехотинец");
+        rifleman.attack();
+        rifleman.move();
+        rifleman.sound();
+
+        Knight knight = new Knight("Рыцарь");
+        knight.feed();
+        knight.attack();
+        knight.move();
+        knight.sound();
+
+        Soldier soldier = new Soldier("Мушкетер");
+        soldier.move();
+        soldier.attack();
+        soldier.sound();
+
+        Barracks barracks = new Barracks();
+        barracks.add(new Soldier("Пехотинец"));
+        barracks.add(new Knight("Рыцарь"));
+        barracks.add(new Rifleman("Мушкетер"));
+        barracks.add(new Rifleman("Мушкетер2"));
+        barracks.visit();
+
+        System.out.println(" ");
     }
 }
